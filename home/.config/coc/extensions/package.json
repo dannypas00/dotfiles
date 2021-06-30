@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "coc-json": "*",
+    "coc-clangd": "*",
+    "coc-css": "*",
+    "coc-discord": "*",
+    "coc-explorer": "*",
+    "coc-git": "*",
+    "coc-html": "*",
+    "coc-htmlhint": "*",
+    "coc-html-css-support": "*",
+    "coc-just-complete": "*",
+    "coc-markdownlint": "*",
+    "coc-php-cs-fixer": "*",
+    "coc-prettier": "*",
+    "coc-python": "*",
+    "coc-sh": "*",
+    "coc-sql": "*",
+    "coc-xml": "*",
+    "coc-yaml": "*"
+  }
+}
