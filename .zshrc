@@ -151,12 +151,11 @@ bindkey "^[m" copy-prev-shell-word
 bindkey '^[[200~–~' paste
 
 alias 'll'='ls -lah'
-alias 'vim'='nvim'
-alias 'a'='~/.config/scripts/aliases.sh'
-export PATH=$PATH:/home/dannypas00/.local/share/gem/ruby/3.0.0/bin
 
-export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
+if [[ -r nvim ]]; then
+    alias 'vim'='nvim'
+fi
+
+export PATH="$HOME/.local/bin:$PATH"
 
 export VIMCONFIG="$HOME/.config/nvim"
-
-wal -R -q
